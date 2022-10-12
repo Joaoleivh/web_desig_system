@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/resources/teste1.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #E2C768;
+
+}
+
+p {
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+#headBar {
+    width: 650px;
+    height: 55px;
+    background-color: white;
+    margin: 10px auto;
+    border-radius: 25px;
+}
+
+.title, .subhead {
+    font-family: 'silkscreen';
+    color: white;
+    -webkit-text-stroke: 1px lightcoral;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    -webkit-text-stroke: 1px lightcoral;
+    font-size: 40px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+    width: 600px;
+    gap: 60px;
+}
+
+#colorTab, #fonts, #txt {
+    background-color: white;
+    border-radius: 120px;
+    width: 90%;
+    /* height: 150px; */
+}
+
+
+.subhead {
+    text-align: center;
+    font-size: 30px;
+}
+
+/* color styles */
+#colorTab p {
+    text-align: center;
+    margin-bottom: 10px;
+    color:rgb(122, 122, 122);
+}
+
+.colos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 10px;
+}
+
+.hexRow {
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(122, 122, 122);
+}
+
+.dgray,.coral, .darkOrange, .blue, .gold {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+
+.dgray {
+    background-color: #d3d3d3;
+}
+.coral {
+    background-color: #f08080;
+}
+.darkOrange {
+    background-color: #ff8c00;
+}
+.blue {
+    background-color: #89cfeb;
+}
+.gold {
+    background-color: #daa520;
+}
+
+/* Fonts styling */
+
+.textcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: right;
+    margin-bottom: 10px;
+    line-height: 1.7;
+    color:rgb(122, 122, 122);
+}
+
+.fontName {
+    font-family: 'silkscreen';
+    color: lightcoral;
+}
+.fontNam {
+    font-family: 'Roboto';
+    color: lightcoral;
+}
+
+.stylcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    color: rgb(122, 122, 122);
+}
+
+.stylcontainer ul {
+    list-style: none;
+}
+
+#txt h1 {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+#txt h3 {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+#txt p {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
